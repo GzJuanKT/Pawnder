@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}  
+
+body h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span{
+    transition: .4s linear;
+}
+
+h1 span:hover{
+    margin-left: 0.2rem;
+    text-shadow: 0 0 1px #760bc2
+    0 0 100px #760bc2,
+    0 0 80px #760bc2;
+}
+
+h2 span:hover{
+    margin-left: 0.2rem;
+    color: #760bc2;
+    text-shadow: 0 0 1px #760bc2,
+    0 0 110px #760bc2,
+    0 0 80px #760bc2;
+}
+
+#appUI:hover{
+    transform: rotate(2deg);
+}
+
+
+footer p{
+    line-height: 1.1rem;
+    font-size: 0.8rem;
+}

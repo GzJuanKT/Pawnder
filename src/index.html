@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawsMatch | Find a match for your dog</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="other.css">   
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- boton slide-up -->
+    <button id="chatBot" class="fixed w-12 h-12 rounded-full bg-violet-400 cursor-pointer bottom-7 right-5 font-bold text-center text-3xl hover:bg-violet-500 hover:text-white focus:outline-none shadow-xl shadow-violet-500/70" style="z-index: 1;"><a href="#divNumUno">
+        <span class="material-symbols-outlined">
+        arrow_upward
+        </span></a>
+    </button>
+
+    <!-- 1ra parte -->
+    <div class="container absolute" id="divNumUno">
+        <div class="relative w-screen bg-violet-300" id="divHeader">
+            <header class="encabezado relative xl:h-auto pt-12 xl:pt-14 px-12 xl:px-36 2xl:px-56 flex justify-between">
+                <a href="index.html"><h1 class="text-4xl 2xl:text-5xl font-semibold" id="textoH1">
+                    Pawnder<span>🐾</span></h1>
+                </a>
+                <nav class="" id="navbar">
+                    <ul class="xl:flex space-x-4 xl:space-x-10 text-black text-xl xl:text-lg font-semibold">
+                        <li class="hover:text-white"><a href="#divSection">Info</a></li>
+                        <li class="hover:text-white"><a href="#">Pricing</a></li>
+                        <li class="hover:text-white"><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>                
+            </header>
+    
+                <!-- h2 -->
+            <div class="relative xl:px-36 xl:flex xl:flex-row xl:space-x-16 xl:items-center">
+                <div class="h-auto w-2/3  2xl:pl-20">
+                  <h2 class="font-bold text-7xl 2xl:text-9xl text-left pb-10" id="textoH2">
+                    <span>Meet new</span> and interesting <span>dogs</span> nearby
+                  </h2>
+                  <button class="w-32 h-12 rounded-3xl text-white bg-violet-400  shadow-xl shadow-violet-800/60 hover:bg-violet-500 font-bold focus:outline-none focus:ring focus:ring-violet-200" id="downloadBtn">Download</button>
+                </div>
+                <div class="xl:w-1/6 xl:h-auto py-6 float-right" id="contenedorImg">
+                    <img src="img/DALL·E 2023-04-19 15.05.50.png" alt="appIU" id="appUI">
+                </div>
+            </div>
+        </div>
+    
+        <!-- 2da parte -->
+        <div class="relative w-screen bg-white" style="height: 500px;" id="divSection">
+            <section class="xl:flex space-x-24 2xl:space-x-56 pt-20" id="seccionUno" style="align-items: center; justify-content: center;">
+                <!-- Primer icono -->
+                <div>
+                    <span class="material-symbols-outlined text-violet-400 hover:text-violet-600" style="font-size: 250px; display: block; text-align: center;">
+                        check_circle
+                    </span>
+                    <h3 class="text-4xl font-bold text-center">Easy to use</h3>
+                    <p class="text-center">So easy to use, even your dog could do it.</p>
+                </div>
+                <!-- Segundo icono -->
+                <div>
+                    <span class="material-symbols-outlined text-violet-400 hover:text-violet-600" style="font-size: 250px; display: block; text-align: center;">
+                        favorite
+                    </span>
+                    <h3 class="text-4xl font-bold text-center">Guaranteed to work</h3>
+                    <p class="text-center">Find the love of your dog's life or your money back.</p>
+                </div>
+                <!-- Tercer icono -->
+                <div>
+                    <span class="material-symbols-outlined text-violet-400 hover:text-violet-600" style="font-size: 250px; display: block; text-align: center;">
+                        pets
+                    </span>
+                    <h3 class="text-4xl font-bold text-center">Elite clientele</h3>
+                    <p class="text-center">We have all the dogs, the greatest dogs.</p>
+                </div>
+            </section>
+        </div>
+    
+        <!-- footer -->
+        <div class="relative w-screen bg-violet-300" style="height: 100px;" id="divFooter">
+            <footer class="pt-6">
+                <p class="text-center font-serif">&copy; 2023 PawsMatch. All rights reserved.</p>
+                <p class="text-center font-serif"><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-and-conditions.html">Terms and Conditions</a></p>
+                <p class="text-center font-serif">Designed by <a href="https://your-website.com">Juan David Ramos</a></p>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
